@@ -51,17 +51,17 @@ const Navbar = () => {
           <li>
             <Link
               style={{ backgroundColor: "var(--mred-color)" }}
-              to="/Datenschutz"
+              to="/Kontakt"
             >
-              Datenschutz
+              Kontakt
             </Link>
           </li>
           <li>
             <Link
               style={{ backgroundColor: "var(--mpurple-color)" }}
-              to="/Kontakt"
+              to="/intern"
             >
-              Kontakt
+              Intern
             </Link>
           </li>
         </ul>

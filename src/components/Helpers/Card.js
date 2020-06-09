@@ -33,7 +33,7 @@ const Card = () => {
         <div className="card-inner">
           <div className="front">
             <h1 className="title">
-              Wir{" "}
+              Wir
               <span style={{ color: "var(--mpurple-color)" }}>schützen </span>
               Vielfalt
             </h1>

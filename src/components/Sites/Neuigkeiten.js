@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 
 const Neuigkeiten = ({ changeBanner }) => {
   useEffect(() => {
-    changeBanner("Unsere Neuigkeiten");
+    changeBanner("Neuigkeiten", "var(--morange-color)");
     // eslint-disable-next-line
   }, []);
 

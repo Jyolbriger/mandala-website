@@ -9,17 +9,17 @@ import Routing from "./components/Navigation/Routing";
 
 const App = () => {
   const checkPassword = (e) => {
-    let pw = e.target.value;
-    if (pw === "mandala2000") {
-      setBody(
-        <div>
-          <Navbar />
-          <Routing />
-        </div>
-      );
-      setTF("");
-    }
+    /*   let pw = e.target.value;
+  if (pw === "mandala2000") {*/
+    setBody(
+      <div>
+        <Navbar />
+        <Routing />
+      </div>
+    );
+    setTF("");
   };
+  //};
 
   const [body, setBody] = useState(<div></div>);
   const [TF, setTF] = useState(

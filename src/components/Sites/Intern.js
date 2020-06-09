@@ -1,12 +1,11 @@
 import React, { useEffect } from "react";
 
-const Galerie = ({ changeBanner }) => {
+const Intern = ({ changeBanner }) => {
   useEffect(() => {
-    changeBanner("Das sind Wir", "var(--mgreen-color)");
+    changeBanner("Interner Bereich", "var(--mpurple-color)");
     // eslint-disable-next-line
   }, []);
-
   return <div></div>;
 };
 
-export default Galerie;
+export default Intern;

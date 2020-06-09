@@ -1,14 +1,14 @@
 import React from "react";
 
-const Banner = (props) => {
+const Sidebar = (props) => {
   return (
     <div
-      className="banner"
+      id="sidebar"
       style={{ ...props.style, backgroundColor: props.colorbg }}
     >
-      {props.text}
+      TEST
     </div>
   );
 };
 
-export default Banner;
+export default Sidebar;
