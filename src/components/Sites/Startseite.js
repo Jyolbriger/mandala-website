@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+import Card from "../Helpers/Card";
 
 const Startseite = ({ changeBanner }) => {
   useEffect(() => {
@@ -8,6 +9,8 @@ const Startseite = ({ changeBanner }) => {
 
   return (
     <div className="text-center">
+      <Card />
+
       <h1>Herzlich willkommen auf der Seite der Kita Mandala in Magdeburg</h1>
       <h1>Kinder intercoolturell!</h1>
       <h2>Wir lieben Vielfalt.</h2>

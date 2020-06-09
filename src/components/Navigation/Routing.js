@@ -2,10 +2,10 @@ import React, { useState } from "react";
 import Neuigkeiten from "../Sites/Neuigkeiten";
 import Kontakt from "../Sites/Kontakt";
 import Datenschutz from "../Sites/Datenschutz";
-import Galerie from "../Sites/Galerie";
+import About from "../Sites/About";
 import Impressum from "../Sites/Impressum";
 import Startseite from "../Sites/Startseite";
-import Sprachkita from "../Sites/Sprachkita";
+import Konzept from "../Sites/Konzept";
 
 import Banner from "./Banner";
 
@@ -30,8 +30,8 @@ const Routing = () => {
           ></Route>
           <Route
             exact
-            path="/Sprach-Kita"
-            render={() => <Sprachkita changeBanner={changeBanner} />}
+            path="/Konzept"
+            render={() => <Konzept changeBanner={changeBanner} />}
           ></Route>
           <Route
             exact
@@ -50,8 +50,8 @@ const Routing = () => {
           ></Route>
           <Route
             exact
-            path="/Galerie"
-            render={() => <Galerie changeBanner={changeBanner} />}
+            path="/About"
+            render={() => <About changeBanner={changeBanner} />}
           ></Route>
           <Route
             exact

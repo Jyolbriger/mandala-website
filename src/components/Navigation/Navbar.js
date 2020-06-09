@@ -11,30 +11,58 @@ const Navbar = () => {
           <img
             src={Logo}
             alt="Mandala Logo"
-            style={{ width: "80px", height: "80px" }}
+            style={{
+              width: "100px",
+              height: "100px",
+              margin: "1.5rem",
+            }}
           />
         </Link>
         <ul>
           <li>
-            <Link to="/">Startseite</Link>
+            <Link style={{ backgroundColor: "var(--mdarkblue-color)" }} to="/">
+              Startseite
+            </Link>
           </li>
           <li>
-            <Link to="/Sprach-Kita">Sprach-Kita</Link>
+            <Link
+              style={{ backgroundColor: "var(--mblue-color)" }}
+              to="/Konzept"
+            >
+              Konzept
+            </Link>
           </li>
           <li>
-            <Link to="/Neuigkeiten">Unsere Neuigkeiten</Link>
+            <Link
+              style={{ backgroundColor: "var(--mgreen-color)" }}
+              to="/About"
+            >
+              Über Uns
+            </Link>
           </li>
           <li>
-            <Link to="/Kontakt">Kontakt</Link>
+            <Link
+              style={{ backgroundColor: "var(--morange-color)" }}
+              to="/Neuigkeiten"
+            >
+              Neuigkeiten
+            </Link>
           </li>
           <li>
-            <Link to="/Datenschutz">Datenschutzerklärung</Link>
+            <Link
+              style={{ backgroundColor: "var(--mred-color)" }}
+              to="/Datenschutz"
+            >
+              Datenschutz
+            </Link>
           </li>
           <li>
-            <Link to="/Galerie">Datenschutzerklärung</Link>
-          </li>
-          <li>
-            <Link to="/Impressum">Impressum</Link>
+            <Link
+              style={{ backgroundColor: "var(--mpurple-color)" }}
+              to="/Kontakt"
+            >
+              Kontakt
+            </Link>
           </li>
         </ul>
       </nav>

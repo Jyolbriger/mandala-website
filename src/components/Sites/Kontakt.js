@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 
 const Kontakt = ({ changeBanner }) => {
   useEffect(() => {
-    changeBanner("Kontakt");
+    changeBanner("Kontaktieren Sie uns gerne");
     // eslint-disable-next-line
   }, []);
 

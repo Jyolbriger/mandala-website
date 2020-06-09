@@ -1,12 +1,12 @@
 import React, { useEffect } from "react";
 
-const Sprachkita = ({ changeBanner }) => {
+const Galerie = ({ changeBanner }) => {
   useEffect(() => {
-    changeBanner("Sprach-Kita");
+    changeBanner("Das sind Wir");
     // eslint-disable-next-line
   }, []);
 
   return <div></div>;
 };
 
-export default Sprachkita;
+export default Galerie;
