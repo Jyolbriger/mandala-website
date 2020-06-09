@@ -34,7 +34,7 @@ const Routing = () => {
       <div className="wrapper">
         {sideBar}
         <Switch>
-          <div className="container">
+          <div>
             <Route
               exact
               path="/"

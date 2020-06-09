@@ -49,10 +49,6 @@ ul {
   list-style: none;
 }
 
-img {
-  width: 100%;
-}
-
 /* Utilities */
 .container {
   display: flex;
@@ -63,8 +59,19 @@ img {
   padding: 0 2rem;
 }
 
+.startcontainer {
+  width: 100%;
+}
+
+.carousel {
+  height: 20rem;
+
+  overflow: hidden;
+}
+
 .wrapper {
   display: flex;
+  width: 100%;
 }
 
 /* Text Styles*/
