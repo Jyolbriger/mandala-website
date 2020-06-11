@@ -1,20 +1,46 @@
 import React from "react";
+import { Slide } from "react-slideshow-image";
 
-import AwesomeSlider from "react-awesome-slider";
-import AwsSliderStyles from "react-awesome-slider/src/styles.scss";
+const slideImages = [
+  "Hande.jpg",
+  "Stricke.jpg",
+  "Schaltkreis.jpg",
+  "Schnecke.jpg",
+  "Verkehrserziehung.jpg",
+];
+
+const properties = {
+  duration: 5000,
+  transitionDuration: 600,
+  infinite: true,
+  indicators: true,
+  arrows: true,
+  pauseOnHover: true,
+  onChange: (oldIndex, newIndex) => {
+    console.log(`slide transition from ${oldIndex} to ${newIndex}`);
+  },
+};
 
 const Carousel = () => {
   return (
-    <div className="carousel">
-      <AwesomeSlider
-        className="carousel"
-        cssModule={AwsSliderStyles}
-        fillParent={true}
-      >
-        <div data-src="Hande.jpg" />
-        <div data-src="Verkehrserziehung.jpg" />
-        <div data-src="Schnecke.jpg" />
-      </AwesomeSlider>
+    <div className='slide-container'>
+      <Slide {...properties}>
+        <div className='each-slide'>
+          <div style={{ backgroundImage: `url(${slideImages[0]})` }}></div>
+        </div>
+        <div className='each-slide'>
+          <div style={{ backgroundImage: `url(${slideImages[1]})` }}></div>
+        </div>
+        <div className='each-slide'>
+          <div style={{ backgroundImage: `url(${slideImages[2]})` }}></div>
+        </div>
+        <div className='each-slide'>
+          <div style={{ backgroundImage: `url(${slideImages[3]})` }}></div>
+        </div>
+        <div className='each-slide'>
+          <div style={{ backgroundImage: `url(${slideImages[4]})` }}></div>
+        </div>
+      </Slide>
     </div>
   );
 };

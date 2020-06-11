@@ -63,15 +63,12 @@ ul {
   width: 100%;
 }
 
-.carousel {
-  height: 20rem;
-
-  overflow: hidden;
-}
-
 .wrapper {
   display: flex;
+  flex-direction: column;
   width: 100%;
+  max-width: 100%;
+  margin: auto;
 }
 
 /* Text Styles*/
@@ -315,4 +312,47 @@ div.banner {
   transform: rotateX(180deg);
   color: black;
   background-color: red;
+}
+
+// Slideshow
+
+.slide-container {
+  width: 100%;
+}
+
+.each-slide > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  height: 30rem;
+}
+
+.each-slide span {
+  padding: 20px;
+  font-size: 20px;
+  background: #efefef;
+  text-align: center;
+}
+
+.each-fade {
+  display: flex;
+}
+
+.each-fade .image-container {
+  width: 75%;
+  overflow: hidden;
+}
+
+.each-fade .image-container img {
+  width: 100%;
+}
+
+.each-fade h2 {
+  width: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  background: #adceed;
 }
