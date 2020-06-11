@@ -9,7 +9,7 @@ const Startseite = ({ changeBanner }) => {
   }, []);
 
   return (
-    <div className="startcontainer">
+    <div style={{ width: "100%" }}>
       <Carousel />
       <Card />
     </div>

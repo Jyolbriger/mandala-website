@@ -6,28 +6,28 @@ import Logo from "./MandalaLogo.png";
 const Navbar = () => {
   return (
     <div>
-      <nav className="navbar">
-        <Link to="/">
+      <nav className='navbar'>
+        <Link to='/'>
           <img
             src={Logo}
-            alt="Mandala Logo"
+            alt='Mandala Logo'
             style={{
-              width: "100px",
-              height: "100px",
-              margin: "1.5rem",
+              width: "6rem",
+              height: "6rem",
+              margin: "auto",
             }}
           />
         </Link>
         <ul>
           <li>
-            <Link style={{ backgroundColor: "var(--mdarkblue-color)" }} to="/">
+            <Link style={{ backgroundColor: "var(--mdarkblue-color)" }} to='/'>
               Startseite
             </Link>
           </li>
           <li>
             <Link
               style={{ backgroundColor: "var(--mblue-color)" }}
-              to="/Konzept"
+              to='/Konzept'
             >
               Konzept
             </Link>
@@ -35,7 +35,7 @@ const Navbar = () => {
           <li>
             <Link
               style={{ backgroundColor: "var(--mgreen-color)" }}
-              to="/About"
+              to='/About'
             >
               Über Uns
             </Link>
@@ -43,7 +43,7 @@ const Navbar = () => {
           <li>
             <Link
               style={{ backgroundColor: "var(--morange-color)" }}
-              to="/Neuigkeiten"
+              to='/Neuigkeiten'
             >
               Neuigkeiten
             </Link>
@@ -51,7 +51,7 @@ const Navbar = () => {
           <li>
             <Link
               style={{ backgroundColor: "var(--mred-color)" }}
-              to="/Kontakt"
+              to='/Kontakt'
             >
               Kontakt
             </Link>
@@ -59,7 +59,7 @@ const Navbar = () => {
           <li>
             <Link
               style={{ backgroundColor: "var(--mpurple-color)" }}
-              to="/intern"
+              to='/intern'
             >
               Intern
             </Link>

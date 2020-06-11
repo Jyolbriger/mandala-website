@@ -31,48 +31,48 @@ const Routing = () => {
   return (
     <div>
       <Banner text={text} colorbg={colorbg} />
-      <div className="wrapper">
+      <div className='wrapper'>
         {sideBar}
         <Switch>
-          <div>
+          <div className='main-content'>
             <Route
               exact
-              path="/"
+              path='/'
               render={() => <Startseite changeBanner={changeBanner} />}
             ></Route>
             <Route
               exact
-              path="/Konzept"
+              path='/Konzept'
               render={() => <Konzept changeBanner={changeBanner} />}
             ></Route>
             <Route
               exact
-              path="/Neuigkeiten"
+              path='/Neuigkeiten'
               render={() => <Neuigkeiten changeBanner={changeBanner} />}
             ></Route>
             <Route
               exact
-              path="/Kontakt"
+              path='/Kontakt'
               render={() => <Kontakt changeBanner={changeBanner} />}
             ></Route>
             <Route
               exact
-              path="/Datenschutz"
+              path='/Datenschutz'
               render={() => <Datenschutz changeBanner={changeBanner} />}
             ></Route>
             <Route
               exact
-              path="/About"
+              path='/About'
               render={() => <About changeBanner={changeBanner} />}
             ></Route>
             <Route
               exact
-              path="/Impressum"
+              path='/Impressum'
               render={() => <Impressum changeBanner={changeBanner} />}
             ></Route>
             <Route
               exact
-              path="/intern"
+              path='/intern'
               render={() => <Intern changeBanner={changeBanner} />}
             ></Route>
           </div>
