@@ -7,9 +7,7 @@ const Sprachkita = ({ changeBanner }) => {
   }, []);
 
   return (
-    <div className="container">
-      <h1>Herzlich willkommen auf der Seite der Kita Mandala in Magdeburg</h1>
-      <h1>Kinder intercoolturell!</h1>
+    <div className='container'>
       <h2>Wir lieben Vielfalt.</h2>
       <p>
         In der Kita und in der Welt. In den Herzen und in den Köpfen. Auf dem
