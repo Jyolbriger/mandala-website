@@ -7,7 +7,7 @@ const Sprachkita = ({ changeBanner }) => {
   }, []);
 
   return (
-    <div className='container'>
+    <div className="container">
       <h2>Wir lieben Vielfalt.</h2>
       <p>
         In der Kita und in der Welt. In den Herzen und in den Köpfen. Auf dem
@@ -25,7 +25,14 @@ const Sprachkita = ({ changeBanner }) => {
         unsere Pflanzen. Wir singen, experimentieren, malen, basteln, toben und
         ruhen uns aus.
       </p>
-      <h2>Vielfalt ist unser Programm.</h2>
+      <h2>Wir schützen Vielfalt.</h2>
+      <p>
+        Wir betreiben drei Pachtgärten, die wir gemeinsam mit Eltern urbar
+        gemacht haben. Damit wir wissen, was wir essen und welche Arbeit dafür
+        notwendig ist. Damit wir schätzen, was wächst. Damit wir schützen, was
+        uns und andere Lebewesen nährt.{" "}
+      </p>
+      <h2>Vielfalt ist unser Konzept.</h2>
       <p>
         Die Kita Mandala eröffnete im Juli 2000 und ist interkulturell
         ausgerichtet – in etwa 40 Prozent unserer Familien ist die Muttersprache
@@ -55,13 +62,6 @@ const Sprachkita = ({ changeBanner }) => {
         Wir leben im Haus gemeinsam mit Fischen und Bartagamen, Kaninchen und
         drei Kita-Hunden; wir achten auf ihre Bedürfnisse und helfen bei
         Fütterung und Pflege.
-      </p>
-      <h2>Wir schützen Vielfalt.</h2>
-      <p>
-        Wir betreiben drei Pachtgärten, die wir gemeinsam mit Eltern urbar
-        gemacht haben. Damit wir wissen, was wir essen und welche Arbeit dafür
-        notwendig ist. Damit wir schätzen, was wächst. Damit wir schützen, was
-        uns und andere Lebewesen nährt.{" "}
       </p>
       <h2>Damit Vielfalt erhalten bleibt.</h2>
     </div>

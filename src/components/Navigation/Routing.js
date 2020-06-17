@@ -8,8 +8,9 @@ import Startseite from "../Sites/Startseite";
 import Konzept from "../Sites/Konzept";
 import Intern from "../Sites/Intern";
 
-import Banner from "./Banner";
 import Sidebar from "../Navigation/Sidebar";
+
+import Banner from "./Banner";
 
 import { Switch, Route } from "react-router-dom";
 
@@ -23,56 +24,97 @@ const Routing = () => {
     setColorbg(newColor);
     if (newColor === "var(--mdarkblue-color)") {
       setSideBar("");
-    } else {
-      setSideBar(<Sidebar colorbg={newColor} />);
+    }
+    if (newColor === "var(--mblue-color)") {
+      setSideBar(
+        <Sidebar
+          colorbg={newColor}
+          bullets={[
+            "Leitbild",
+            "Konzeption",
+            "Räume",
+            "Partner",
+            "Zertifikate",
+          ]}
+        />
+      );
+    }
+    if (newColor === "var(--mgreen-color)") {
+      setSideBar(
+        <Sidebar
+          colorbg={newColor}
+          bullets={["Kinder", "Eltern", "Team", "AG's", "Tiere"]}
+        />
+      );
+    }
+    if (newColor === "var(--morange-color)") {
+      setSideBar(
+        <Sidebar
+          colorbg={newColor}
+          bullets={[
+            "Termine",
+            "Mitarbeit",
+            "Projekte/ Feste",
+            "Öffentlichkeitsarbeit",
+          ]}
+        />
+      );
+    }
+    if (newColor === "var(--mred-color)") {
+      setSideBar(
+        <Sidebar
+          colorbg={newColor}
+          bullets={["Mandala", "Ansprechpartner", "Kontaktformular"]}
+        />
+      );
     }
   };
 
   return (
     <div>
       <Banner text={text} colorbg={colorbg} />
-      <div className='wrapper'>
+      <div className="wrapper">
         {sideBar}
         <Switch>
-          <div className='main-content'>
+          <div className="main-content">
             <Route
               exact
-              path='/'
+              path="/"
               render={() => <Startseite changeBanner={changeBanner} />}
             ></Route>
             <Route
               exact
-              path='/Konzept'
+              path="/Konzept"
               render={() => <Konzept changeBanner={changeBanner} />}
             ></Route>
             <Route
               exact
-              path='/Neuigkeiten'
+              path="/Neuigkeiten"
               render={() => <Neuigkeiten changeBanner={changeBanner} />}
             ></Route>
             <Route
               exact
-              path='/Kontakt'
+              path="/Kontakt"
               render={() => <Kontakt changeBanner={changeBanner} />}
             ></Route>
             <Route
               exact
-              path='/Datenschutz'
+              path="/Datenschutz"
               render={() => <Datenschutz changeBanner={changeBanner} />}
             ></Route>
             <Route
               exact
-              path='/About'
+              path="/About"
               render={() => <About changeBanner={changeBanner} />}
             ></Route>
             <Route
               exact
-              path='/Impressum'
+              path="/Impressum"
               render={() => <Impressum changeBanner={changeBanner} />}
             ></Route>
             <Route
               exact
-              path='/intern'
+              path="/intern"
               render={() => <Intern changeBanner={changeBanner} />}
             ></Route>
           </div>

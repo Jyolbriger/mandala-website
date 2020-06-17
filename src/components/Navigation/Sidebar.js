@@ -6,7 +6,11 @@ const Sidebar = (props) => {
       id="sidebar"
       style={{ ...props.style, backgroundColor: props.colorbg }}
     >
-      TEST
+      <ul>
+        {props.bullets.map((element) => (
+          <li>{element}</li>
+        ))}
+      </ul>
     </div>
   );
 };
