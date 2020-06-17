@@ -4,7 +4,10 @@ import Carousel from "../Helpers/Carousel";
 
 const Startseite = ({ changeBanner }) => {
   useEffect(() => {
-    changeBanner("Willkommen", "var(--mdarkblue-color)");
+    changeBanner(
+      "Willkommen auf der Website der Kita Mandala",
+      "var(--mdarkblue-color)"
+    );
     // eslint-disable-next-line
   }, []);
 

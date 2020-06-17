@@ -15,14 +15,14 @@ import Banner from "./Banner";
 import { Switch, Route } from "react-router-dom";
 
 const Routing = () => {
-  const [text, setText] = useState("Willkommen");
+  const [text, setText] = useState("Mandala Kinderbetreuung gGmbH");
   const [colorbg, setColorbg] = useState("var(--mdarkblue-color");
   const [sideBar, setSideBar] = useState("");
 
   const changeBanner = (newText, newColor) => {
     setText(newText);
     setColorbg(newColor);
-    if (newColor === "var(--mdarkblue-color)") {
+    if (newColor === "var(--mdarkblue-color)" || "var(--mpurple-color)") {
       setSideBar("");
     }
     if (newColor === "var(--mblue-color)") {
