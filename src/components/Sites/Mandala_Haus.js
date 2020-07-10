@@ -1,0 +1,510 @@
+import React from "react";
+
+function Icon({ changeUrl }) {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      className="SVGHaus"
+      version="1.1"
+      viewBox="0 0 430 410"
+    >
+      <g
+        fillOpacity="1"
+        strokeLinejoin="miter"
+        strokeOpacity="1"
+        transform="translate(0 113)"
+      >
+        <path
+          fill="#c7b310"
+          fillRule="nonzero"
+          stroke="none"
+          strokeDasharray="none"
+          strokeLinecap="square"
+          strokeMiterlimit="4"
+          strokeWidth="3.129"
+          d="M16.631 204.732H116.631V294.73199999999997H16.631z"
+          opacity="1"
+        ></path>
+        <path
+          className="etage"
+          onClick={(e) =>
+            changeUrl("https://www.youtube.com/embed/CxC925yUxSI")
+          }
+          fill="#c7b310"
+          fillRule="nonzero"
+          stroke="none"
+          strokeDasharray="none"
+          strokeLinecap="square"
+          strokeMiterlimit="4"
+          strokeWidth="5.419"
+          d="M116.631 204.732H416.631V294.73199999999997H116.631z"
+          opacity="1"
+        ></path>
+        <path
+          className="etage"
+          fill="#c7b310"
+          fillRule="nonzero"
+          stroke="none"
+          strokeDasharray="none"
+          strokeLinecap="square"
+          strokeMiterlimit="4"
+          strokeWidth="6.258"
+          d="M16.631 114.732H416.631V204.732H16.631z"
+          opacity="1"
+        ></path>
+        <path
+          className="etage"
+          fill="#c7b310"
+          fillRule="nonzero"
+          stroke="none"
+          strokeDasharray="none"
+          strokeLinecap="square"
+          strokeMiterlimit="4"
+          strokeWidth="6.258"
+          d="M16.631 24.732H416.631V114.732H16.631z"
+          opacity="1"
+        ></path>
+        <path
+          className="etage"
+          fill="#c7b310"
+          fillRule="nonzero"
+          stroke="none"
+          strokeDasharray="none"
+          strokeLinecap="square"
+          strokeMiterlimit="4"
+          strokeWidth="7.456"
+          d="M16.631 -103.024H416.631V24.732H16.631z"
+          opacity="1"
+        ></path>
+        <path
+          fill="none"
+          fillRule="nonzero"
+          stroke="#000"
+          strokeDasharray="none"
+          strokeLinecap="square"
+          strokeMiterlimit="4"
+          strokeWidth="2"
+          d="M67.318-75.636c-24.497 0-44.974 17.377-44.974 55.862v305.94h88.437v-305.94c0-38.485-18.965-55.862-43.463-55.862z"
+          opacity="1"
+        ></path>
+        <path
+          fill="#a39948"
+          fillRule="nonzero"
+          stroke="#000"
+          strokeDasharray="none"
+          strokeLinecap="square"
+          strokeMiterlimit="4"
+          strokeWidth="0.312"
+          d="M46.188 213.624c-4.863 0-8.927 2.136-8.927 6.867v37.61h17.554v-37.61c0-4.73-3.765-6.867-8.627-6.867z"
+          opacity="1"
+        ></path>
+        <path
+          fill="#a39948"
+          fillRule="nonzero"
+          stroke="#000"
+          strokeDasharray="none"
+          strokeLinecap="square"
+          strokeMiterlimit="4"
+          strokeWidth="0.312"
+          d="M46.188 134.25c-4.863 0-8.927 2.135-8.927 6.866v37.61h17.554v-37.61c0-4.73-3.765-6.867-8.627-6.867z"
+          opacity="1"
+        ></path>
+        <path
+          fill="#a39948"
+          fillRule="nonzero"
+          stroke="#000"
+          strokeDasharray="none"
+          strokeLinecap="square"
+          strokeMiterlimit="4"
+          strokeWidth="0.312"
+          d="M46.188 54.874c-4.863 0-8.927 2.136-8.927 6.867v37.61h17.554V61.74c0-4.73-3.765-6.867-8.627-6.867z"
+          opacity="1"
+        ></path>
+        <path
+          fill="#a39948"
+          fillRule="nonzero"
+          stroke="#000"
+          strokeDasharray="none"
+          strokeLinecap="square"
+          strokeMiterlimit="4"
+          strokeWidth="0.312"
+          d="M46.188-24.5c-4.863 0-8.927 2.135-8.927 6.866v37.61h17.554v-37.61c0-4.73-3.765-6.867-8.627-6.867z"
+          opacity="1"
+        ></path>
+        <path
+          fill="#a39948"
+          fillRule="nonzero"
+          stroke="#000"
+          strokeDasharray="none"
+          strokeLinecap="square"
+          strokeMiterlimit="4"
+          strokeWidth="0.312"
+          d="M86.48 213.624c-4.863 0-8.927 2.136-8.927 6.867v37.61h17.554v-37.61c0-4.73-3.765-6.867-8.627-6.867z"
+          opacity="1"
+        ></path>
+        <path
+          fill="#a39948"
+          fillRule="nonzero"
+          stroke="#000"
+          strokeDasharray="none"
+          strokeLinecap="square"
+          strokeMiterlimit="4"
+          strokeWidth="0.312"
+          d="M86.48 134.25c-4.863 0-8.927 2.135-8.927 6.866v37.61h17.554v-37.61c0-4.73-3.765-6.867-8.627-6.867z"
+          opacity="1"
+        ></path>
+        <path
+          fill="#a39948"
+          fillRule="nonzero"
+          stroke="#000"
+          strokeDasharray="none"
+          strokeLinecap="square"
+          strokeMiterlimit="4"
+          strokeWidth="0.312"
+          d="M86.48 54.874c-4.863 0-8.927 2.136-8.927 6.867v37.61h17.554V61.74c0-4.73-3.765-6.867-8.627-6.867z"
+          opacity="1"
+        ></path>
+        <path
+          fill="#a39948"
+          fillRule="nonzero"
+          stroke="#000"
+          strokeDasharray="none"
+          strokeLinecap="square"
+          strokeMiterlimit="4"
+          strokeWidth="0.312"
+          d="M86.48-24.5c-4.863 0-8.927 2.135-8.927 6.866v37.61h17.554v-37.61c0-4.73-3.765-6.867-8.627-6.867z"
+          opacity="1"
+        ></path>
+        <path
+          fill="#a39948"
+          fillRule="nonzero"
+          stroke="#000"
+          strokeDasharray="none"
+          strokeLinecap="square"
+          strokeMiterlimit="4"
+          strokeWidth="0.312"
+          d="M144.046 213.624c-4.863 0-8.927 2.136-8.927 6.867v37.61h17.554v-37.61c0-4.73-3.765-6.867-8.627-6.867z"
+          opacity="1"
+        ></path>
+        <path
+          fill="#a39948"
+          fillRule="nonzero"
+          stroke="#000"
+          strokeDasharray="none"
+          strokeLinecap="square"
+          strokeMiterlimit="4"
+          strokeWidth="0.312"
+          d="M144.046 134.25c-4.863 0-8.927 2.135-8.927 6.866v37.61h17.554v-37.61c0-4.73-3.765-6.867-8.627-6.867z"
+          opacity="1"
+        ></path>
+        <path
+          fill="#a39948"
+          fillRule="nonzero"
+          stroke="#000"
+          strokeDasharray="none"
+          strokeLinecap="square"
+          strokeMiterlimit="4"
+          strokeWidth="0.312"
+          d="M144.046 54.874c-4.863 0-8.927 2.136-8.927 6.867v37.61h17.554V61.74c0-4.73-3.765-6.867-8.627-6.867z"
+          opacity="1"
+        ></path>
+        <path
+          fill="#a39948"
+          fillRule="nonzero"
+          stroke="#000"
+          strokeDasharray="none"
+          strokeLinecap="square"
+          strokeMiterlimit="4"
+          strokeWidth="0.312"
+          d="M144.046-24.5c-4.863 0-8.927 2.135-8.927 6.866v37.61h17.554v-37.61c0-4.73-3.765-6.867-8.627-6.867z"
+          opacity="1"
+        ></path>
+        <path
+          fill="#a39948"
+          fillRule="nonzero"
+          stroke="#000"
+          strokeDasharray="none"
+          strokeLinecap="square"
+          strokeMiterlimit="4"
+          strokeWidth="0.312"
+          d="M184.338 213.624c-4.863 0-8.927 2.136-8.927 6.867v37.61h17.554v-37.61c0-4.73-3.765-6.867-8.627-6.867z"
+          opacity="1"
+        ></path>
+        <path
+          fill="#a39948"
+          fillRule="nonzero"
+          stroke="#000"
+          strokeDasharray="none"
+          strokeLinecap="square"
+          strokeMiterlimit="4"
+          strokeWidth="0.312"
+          d="M184.338 134.25c-4.863 0-8.927 2.135-8.927 6.866v37.61h17.554v-37.61c0-4.73-3.765-6.867-8.627-6.867z"
+          opacity="1"
+        ></path>
+        <path
+          fill="#a39948"
+          fillRule="nonzero"
+          stroke="#000"
+          strokeDasharray="none"
+          strokeLinecap="square"
+          strokeMiterlimit="4"
+          strokeWidth="0.312"
+          d="M184.338 54.874c-4.863 0-8.927 2.136-8.927 6.867v37.61h17.554V61.74c0-4.73-3.765-6.867-8.627-6.867z"
+          opacity="1"
+        ></path>
+        <path
+          fill="#a39948"
+          fillRule="nonzero"
+          stroke="#000"
+          strokeDasharray="none"
+          strokeLinecap="square"
+          strokeMiterlimit="4"
+          strokeWidth="0.312"
+          d="M184.338-24.5c-4.863 0-8.927 2.135-8.927 6.866v37.61h17.554v-37.61c0-4.73-3.765-6.867-8.627-6.867z"
+          opacity="1"
+        ></path>
+        <path
+          fill="#a39948"
+          fillRule="nonzero"
+          stroke="#000"
+          strokeDasharray="none"
+          strokeLinecap="square"
+          strokeMiterlimit="4"
+          strokeWidth="0.312"
+          d="M246.1 213.624c-4.863 0-8.928 2.136-8.928 6.867v37.61h17.554v-37.61c0-4.73-3.764-6.867-8.627-6.867z"
+          opacity="1"
+        ></path>
+        <path
+          fill="#a39948"
+          fillRule="nonzero"
+          stroke="#000"
+          strokeDasharray="none"
+          strokeLinecap="square"
+          strokeMiterlimit="4"
+          strokeWidth="0.312"
+          d="M246.1 134.25c-4.863 0-8.928 2.135-8.928 6.866v37.61h17.554v-37.61c0-4.73-3.764-6.867-8.627-6.867z"
+          opacity="1"
+        ></path>
+        <path
+          fill="#a39948"
+          fillRule="nonzero"
+          stroke="#000"
+          strokeDasharray="none"
+          strokeLinecap="square"
+          strokeMiterlimit="4"
+          strokeWidth="0.312"
+          d="M246.1 54.874c-4.863 0-8.928 2.136-8.928 6.867v37.61h17.554V61.74c0-4.73-3.764-6.867-8.627-6.867z"
+          opacity="1"
+        ></path>
+        <path
+          fill="#a39948"
+          fillRule="nonzero"
+          stroke="#000"
+          strokeDasharray="none"
+          strokeLinecap="square"
+          strokeMiterlimit="4"
+          strokeWidth="0.312"
+          d="M246.1-24.5c-4.863 0-8.928 2.135-8.928 6.866v37.61h17.554v-37.61c0-4.73-3.764-6.867-8.627-6.867z"
+          opacity="1"
+        ></path>
+        <path
+          fill="#a39948"
+          fillRule="nonzero"
+          stroke="#000"
+          strokeDasharray="none"
+          strokeLinecap="square"
+          strokeMiterlimit="4"
+          strokeWidth="0.312"
+          d="M286.391 213.624c-4.862 0-8.927 2.136-8.927 6.867v37.61h17.554v-37.61c0-4.73-3.764-6.867-8.627-6.867z"
+          opacity="1"
+        ></path>
+        <path
+          fill="#a39948"
+          fillRule="nonzero"
+          stroke="#000"
+          strokeDasharray="none"
+          strokeLinecap="square"
+          strokeMiterlimit="4"
+          strokeWidth="0.312"
+          d="M286.391 134.25c-4.862 0-8.927 2.135-8.927 6.866v37.61h17.554v-37.61c0-4.73-3.764-6.867-8.627-6.867z"
+          opacity="1"
+        ></path>
+        <path
+          fill="#a39948"
+          fillRule="nonzero"
+          stroke="#000"
+          strokeDasharray="none"
+          strokeLinecap="square"
+          strokeMiterlimit="4"
+          strokeWidth="0.312"
+          d="M286.391 54.874c-4.862 0-8.927 2.136-8.927 6.867v37.61h17.554V61.74c0-4.73-3.764-6.867-8.627-6.867z"
+          opacity="1"
+        ></path>
+        <path
+          fill="#a39948"
+          fillRule="nonzero"
+          stroke="#000"
+          strokeDasharray="none"
+          strokeLinecap="square"
+          strokeMiterlimit="4"
+          strokeWidth="0.312"
+          d="M286.391-24.5c-4.862 0-8.927 2.135-8.927 6.866v37.61h17.554v-37.61c0-4.73-3.764-6.867-8.627-6.867z"
+          opacity="1"
+        ></path>
+        <path
+          fill="#a39948"
+          fillRule="nonzero"
+          stroke="#000"
+          strokeDasharray="none"
+          strokeLinecap="square"
+          strokeMiterlimit="4"
+          strokeWidth="0.312"
+          d="M342.861 213.624c-4.862 0-8.927 2.136-8.927 6.867v37.61h17.554v-37.61c0-4.73-3.764-6.867-8.627-6.867z"
+          opacity="1"
+        ></path>
+        <path
+          fill="#a39948"
+          fillRule="nonzero"
+          stroke="#000"
+          strokeDasharray="none"
+          strokeLinecap="square"
+          strokeMiterlimit="4"
+          strokeWidth="0.312"
+          d="M342.861 134.25c-4.862 0-8.927 2.135-8.927 6.866v37.61h17.554v-37.61c0-4.73-3.764-6.867-8.627-6.867z"
+          opacity="1"
+        ></path>
+        <path
+          fill="#a39948"
+          fillRule="nonzero"
+          stroke="#000"
+          strokeDasharray="none"
+          strokeLinecap="square"
+          strokeMiterlimit="4"
+          strokeWidth="0.312"
+          d="M342.861 54.874c-4.862 0-8.927 2.136-8.927 6.867v37.61h17.554V61.74c0-4.73-3.764-6.867-8.627-6.867z"
+          opacity="1"
+        ></path>
+        <path
+          fill="#a39948"
+          fillRule="nonzero"
+          stroke="#000"
+          strokeDasharray="none"
+          strokeLinecap="square"
+          strokeMiterlimit="4"
+          strokeWidth="0.312"
+          d="M342.861-24.5c-4.862 0-8.927 2.135-8.927 6.866v37.61h17.554v-37.61c0-4.73-3.764-6.867-8.627-6.867z"
+          opacity="1"
+        ></path>
+        <path
+          fill="#a39948"
+          fillRule="nonzero"
+          stroke="#000"
+          strokeDasharray="none"
+          strokeLinecap="square"
+          strokeMiterlimit="4"
+          strokeWidth="0.312"
+          d="M383.153 213.624c-4.862 0-8.927 2.136-8.927 6.867v37.61h17.554v-37.61c0-4.73-3.764-6.867-8.627-6.867z"
+          opacity="1"
+        ></path>
+        <path
+          fill="#a39948"
+          fillRule="nonzero"
+          stroke="#000"
+          strokeDasharray="none"
+          strokeLinecap="square"
+          strokeMiterlimit="4"
+          strokeWidth="0.312"
+          d="M383.153 134.25c-4.862 0-8.927 2.135-8.927 6.866v37.61h17.554v-37.61c0-4.73-3.764-6.867-8.627-6.867z"
+          opacity="1"
+        ></path>
+        <path
+          fill="#a39948"
+          fillRule="nonzero"
+          stroke="#000"
+          strokeDasharray="none"
+          strokeLinecap="square"
+          strokeMiterlimit="4"
+          strokeWidth="0.312"
+          d="M383.153 54.874c-4.862 0-8.927 2.136-8.927 6.867v37.61h17.554V61.74c0-4.73-3.764-6.867-8.627-6.867z"
+          opacity="1"
+        ></path>
+        <path
+          fill="#a39948"
+          fillRule="nonzero"
+          stroke="#000"
+          strokeDasharray="none"
+          strokeLinecap="square"
+          strokeMiterlimit="4"
+          strokeWidth="0.312"
+          d="M383.153-24.5c-4.862 0-8.927 2.135-8.927 6.866v37.61h17.554v-37.61c0-4.73-3.764-6.867-8.627-6.867z"
+          opacity="1"
+        ></path>
+        <path
+          fill="#4d4d4d"
+          fillRule="nonzero"
+          stroke="#000"
+          strokeDasharray="none"
+          strokeLinecap="square"
+          strokeMiterlimit="4"
+          strokeWidth="2"
+          d="M215.796 263.32c-8.65 0-15.88 1.487-15.88 4.782v26.19h31.227v-26.19c0-3.295-6.697-4.783-15.347-4.783z"
+          opacity="1"
+        ></path>
+        <rect
+          width="19.655"
+          height="18.899"
+          x="155.121"
+          y="-88.158"
+          fill="#4d4d4d"
+          fillRule="nonzero"
+          stroke="#000"
+          strokeDasharray="none"
+          strokeLinecap="square"
+          strokeMiterlimit="4"
+          strokeWidth="2"
+          opacity="1"
+          ry="1.134"
+        ></rect>
+        <rect
+          width="19.655"
+          height="18.899"
+          x="257.78"
+          y="-88.158"
+          fill="#4d4d4d"
+          fillRule="nonzero"
+          stroke="#000"
+          strokeDasharray="none"
+          strokeLinecap="square"
+          strokeMiterlimit="4"
+          strokeWidth="2"
+          opacity="1"
+          ry="1.134"
+        ></rect>
+        <rect
+          width="19.655"
+          height="18.899"
+          x="352.727"
+          y="-88.158"
+          fill="#4d4d4d"
+          fillRule="nonzero"
+          stroke="#000"
+          strokeDasharray="none"
+          strokeLinecap="square"
+          strokeMiterlimit="4"
+          strokeWidth="2"
+          opacity="1"
+          ry="1.134"
+        ></rect>
+        <path
+          fill="#4d4d4d"
+          stroke="#000"
+          strokeLinecap="butt"
+          strokeWidth="0.265"
+          d="M16.631-103.024v0L0-111.214l430.893.756-14.262 7.434z"
+        ></path>
+      </g>
+    </svg>
+  );
+}
+
+export default Icon;
